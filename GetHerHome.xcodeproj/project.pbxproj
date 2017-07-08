@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76600DDA1F11941D00E84365 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76600DD91F11941D00E84365 /* AppDelegate.swift */; };
+		76600DDC1F11941D00E84365 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76600DDB1F11941D00E84365 /* ViewController.swift */; };
+		76600DDF1F11941D00E84365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76600DDD1F11941D00E84365 /* Main.storyboard */; };
+		76600DE11F11941D00E84365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76600DE01F11941D00E84365 /* Assets.xcassets */; };
+		76600DE41F11941D00E84365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76600DE21F11941D00E84365 /* LaunchScreen.storyboard */; };
+		76600DEF1F11941D00E84365 /* GetHerHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76600DEE1F11941D00E84365 /* GetHerHomeTests.swift */; };
+		76600DFA1F11941D00E84365 /* GetHerHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76600DF91F11941D00E84365 /* GetHerHomeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76600DEB1F11941D00E84365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76600DCE1F11941D00E84365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76600DD51F11941D00E84365;
+			remoteInfo = GetHerHome;
+		};
+		76600DF61F11941D00E84365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76600DCE1F11941D00E84365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76600DD51F11941D00E84365;
+			remoteInfo = GetHerHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76600DD61F11941D00E84365 /* GetHerHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetHerHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76600DD91F11941D00E84365 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76600DDB1F11941D00E84365 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76600DDE1F11941D00E84365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76600DE01F11941D00E84365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76600DE31F11941D00E84365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76600DE51F11941D00E84365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76600DEA1F11941D00E84365 /* GetHerHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetHerHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76600DEE1F11941D00E84365 /* GetHerHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetHerHomeTests.swift; sourceTree = "<group>"; };
+		76600DF01F11941D00E84365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76600DF51F11941D00E84365 /* GetHerHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetHerHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76600DF91F11941D00E84365 /* GetHerHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetHerHomeUITests.swift; sourceTree = "<group>"; };
+		76600DFB1F11941D00E84365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76600DD31F11941D00E84365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76600DE71F11941D00E84365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76600DF21F11941D00E84365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76600DCD1F11941D00E84365 = {
+			isa = PBXGroup;
+			children = (
+				76600DD81F11941D00E84365 /* GetHerHome */,
+				76600DED1F11941D00E84365 /* GetHerHomeTests */,
+				76600DF81F11941D00E84365 /* GetHerHomeUITests */,
+				76600DD71F11941D00E84365 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76600DD71F11941D00E84365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76600DD61F11941D00E84365 /* GetHerHome.app */,
+				76600DEA1F11941D00E84365 /* GetHerHomeTests.xctest */,
+				76600DF51F11941D00E84365 /* GetHerHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76600DD81F11941D00E84365 /* GetHerHome */ = {
+			isa = PBXGroup;
+			children = (
+				76600DD91F11941D00E84365 /* AppDelegate.swift */,
+				76600DDB1F11941D00E84365 /* ViewController.swift */,
+				76600DDD1F11941D00E84365 /* Main.storyboard */,
+				76600DE01F11941D00E84365 /* Assets.xcassets */,
+				76600DE21F11941D00E84365 /* LaunchScreen.storyboard */,
+				76600DE51F11941D00E84365 /* Info.plist */,
+			);
+			path = GetHerHome;
+			sourceTree = "<group>";
+		};
+		76600DED1F11941D00E84365 /* GetHerHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				76600DEE1F11941D00E84365 /* GetHerHomeTests.swift */,
+				76600DF01F11941D00E84365 /* Info.plist */,
+			);
+			path = GetHerHomeTests;
+			sourceTree = "<group>";
+		};
+		76600DF81F11941D00E84365 /* GetHerHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76600DF91F11941D00E84365 /* GetHerHomeUITests.swift */,
+				76600DFB1F11941D00E84365 /* Info.plist */,
+			);
+			path = GetHerHomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76600DD51F11941D00E84365 /* GetHerHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76600DFE1F11941D00E84365 /* Build configuration list for PBXNativeTarget "GetHerHome" */;
+			buildPhases = (
+				76600DD21F11941D00E84365 /* Sources */,
+				76600DD31F11941D00E84365 /* Frameworks */,
+				76600DD41F11941D00E84365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetHerHome;
+			productName = GetHerHome;
+			productReference = 76600DD61F11941D00E84365 /* GetHerHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76600DE91F11941D00E84365 /* GetHerHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76600E011F11941D00E84365 /* Build configuration list for PBXNativeTarget "GetHerHomeTests" */;
+			buildPhases = (
+				76600DE61F11941D00E84365 /* Sources */,
+				76600DE71F11941D00E84365 /* Frameworks */,
+				76600DE81F11941D00E84365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76600DEC1F11941D00E84365 /* PBXTargetDependency */,
+			);
+			name = GetHerHomeTests;
+			productName = GetHerHomeTests;
+			productReference = 76600DEA1F11941D00E84365 /* GetHerHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76600DF41F11941D00E84365 /* GetHerHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76600E041F11941D00E84365 /* Build configuration list for PBXNativeTarget "GetHerHomeUITests" */;
+			buildPhases = (
+				76600DF11F11941D00E84365 /* Sources */,
+				76600DF21F11941D00E84365 /* Frameworks */,
+				76600DF31F11941D00E84365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76600DF71F11941D00E84365 /* PBXTargetDependency */,
+			);
+			name = GetHerHomeUITests;
+			productName = GetHerHomeUITests;
+			productReference = 76600DF51F11941D00E84365 /* GetHerHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76600DCE1F11941D00E84365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Savannah McCoy";
+				TargetAttributes = {
+					76600DD51F11941D00E84365 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6ZD82QXX95;
+						ProvisioningStyle = Automatic;
+					};
+					76600DE91F11941D00E84365 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6ZD82QXX95;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76600DD51F11941D00E84365;
+					};
+					76600DF41F11941D00E84365 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6ZD82QXX95;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76600DD51F11941D00E84365;
+					};
+				};
+			};
+			buildConfigurationList = 76600DD11F11941D00E84365 /* Build configuration list for PBXProject "GetHerHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76600DCD1F11941D00E84365;
+			productRefGroup = 76600DD71F11941D00E84365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76600DD51F11941D00E84365 /* GetHerHome */,
+				76600DE91F11941D00E84365 /* GetHerHomeTests */,
+				76600DF41F11941D00E84365 /* GetHerHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76600DD41F11941D00E84365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76600DE41F11941D00E84365 /* LaunchScreen.storyboard in Resources */,
+				76600DE11F11941D00E84365 /* Assets.xcassets in Resources */,
+				76600DDF1F11941D00E84365 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76600DE81F11941D00E84365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76600DF31F11941D00E84365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76600DD21F11941D00E84365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76600DDC1F11941D00E84365 /* ViewController.swift in Sources */,
+				76600DDA1F11941D00E84365 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76600DE61F11941D00E84365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76600DEF1F11941D00E84365 /* GetHerHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76600DF11F11941D00E84365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76600DFA1F11941D00E84365 /* GetHerHomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76600DEC1F11941D00E84365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76600DD51F11941D00E84365 /* GetHerHome */;
+			targetProxy = 76600DEB1F11941D00E84365 /* PBXContainerItemProxy */;
+		};
+		76600DF71F11941D00E84365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76600DD51F11941D00E84365 /* GetHerHome */;
+			targetProxy = 76600DF61F11941D00E84365 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76600DDD1F11941D00E84365 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76600DDE1F11941D00E84365 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76600DE21F11941D00E84365 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76600DE31F11941D00E84365 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76600DFC1F11941D00E84365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76600DFD1F11941D00E84365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76600DFF1F11941D00E84365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ZD82QXX95;
+				INFOPLIST_FILE = GetHerHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = svm.GetHerHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		76600E001F11941D00E84365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ZD82QXX95;
+				INFOPLIST_FILE = GetHerHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = svm.GetHerHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		76600E021F11941D00E84365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6ZD82QXX95;
+				INFOPLIST_FILE = GetHerHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = svm.GetHerHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetHerHome.app/GetHerHome";
+			};
+			name = Debug;
+		};
+		76600E031F11941D00E84365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6ZD82QXX95;
+				INFOPLIST_FILE = GetHerHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = svm.GetHerHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetHerHome.app/GetHerHome";
+			};
+			name = Release;
+		};
+		76600E051F11941D00E84365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6ZD82QXX95;
+				INFOPLIST_FILE = GetHerHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = svm.GetHerHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GetHerHome;
+			};
+			name = Debug;
+		};
+		76600E061F11941D00E84365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6ZD82QXX95;
+				INFOPLIST_FILE = GetHerHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = svm.GetHerHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GetHerHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76600DD11F11941D00E84365 /* Build configuration list for PBXProject "GetHerHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76600DFC1F11941D00E84365 /* Debug */,
+				76600DFD1F11941D00E84365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76600DFE1F11941D00E84365 /* Build configuration list for PBXNativeTarget "GetHerHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76600DFF1F11941D00E84365 /* Debug */,
+				76600E001F11941D00E84365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76600E011F11941D00E84365 /* Build configuration list for PBXNativeTarget "GetHerHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76600E021F11941D00E84365 /* Debug */,
+				76600E031F11941D00E84365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76600E041F11941D00E84365 /* Build configuration list for PBXNativeTarget "GetHerHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76600E051F11941D00E84365 /* Debug */,
+				76600E061F11941D00E84365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76600DCE1F11941D00E84365 /* Project object */;
+}
