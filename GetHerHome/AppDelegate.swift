@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LyftSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+       LyftConfiguration.developer = (token: "phy0jSVFLfMV67j3rb6e2QEnsxy1sWk5oCQDPM7Q/8V/HZlwJOeS4wi6NHF+z5eFSnqV+N7+fwFNeuiIWSVCLyi92rWKFtyZc383Ri5VJu5wKW9FDidLO6c=", clientId: "4gferx0J3fxL")
+        
         // Override point for customization after application launch.
         return true
     }

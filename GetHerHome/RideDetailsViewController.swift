@@ -7,15 +7,32 @@
 //
 
 import UIKit
+import LyftSDK
+import CoreLocation
 
 class RideDetailsViewController: UIViewController {
 
     @IBOutlet weak var rideInfoTextView: UILabel!
     @IBOutlet weak var backButton: UIButton!
     
+   var myEtas = [ETA]()
+   // var delegate = MapViewController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+//        let pickup = CLLocationCoordinate2D(latitude: 37.790344037, longitude: -122.3921770)
+//        LyftAPI.ETAs(to: pickup) { result in
+//            result.value?.forEach { eta in
+//                self.myEtas.append(eta)
+//                //print("ETA for \(eta.rideKind): \(eta.minutes) min")
+//            }
+//            
+            self.rideInfoTextView.text = "ETA for \(myEtas[1].rideKind.rawValue): \(myEtas[1].minutes) min"
+//        }
+//        
+        
+        
         // Do any additional setup after loading the view.
     }
 

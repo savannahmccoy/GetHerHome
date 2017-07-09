@@ -1,0 +1,14 @@
+PODS:
+  - LyftSDK (1.0.5):
+    - LyftSDK/Core (= 1.0.5)
+  - LyftSDK/Core (1.0.5)
+
+DEPENDENCIES:
+  - LyftSDK
+
+SPEC CHECKSUMS:
+  LyftSDK: 2b08f3c1869214ff4f9ed8a0096fafa2ebeeed21
+
+PODFILE CHECKSUM: a592f561eff677bb5d667365a9de8a6cf4c9dfba
+
+COCOAPODS: 1.2.0

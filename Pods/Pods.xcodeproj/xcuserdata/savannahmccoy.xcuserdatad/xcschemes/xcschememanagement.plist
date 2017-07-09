@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>LyftSDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-GetHerHome.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-GetHerHomeTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-GetHerHomeUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>08F0A9221523C7718273F647DF581469</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B2C869C1D1CC53E1F4B85F7AAEEE1A0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A557BF5A4DBD1465A6ED012A85277B80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B24808709821C7FEF94E3011A6AB48A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

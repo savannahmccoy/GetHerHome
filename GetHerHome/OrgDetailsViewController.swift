@@ -19,7 +19,7 @@ class OrgDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        orgImageImageView.image = UIImage(named: "Healing.png")        // Do any additional setup after loading the view.
+        orgImageImageView.image = UIImage(named: "AWP.jpg")        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

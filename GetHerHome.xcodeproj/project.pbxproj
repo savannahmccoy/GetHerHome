@@ -21,6 +21,15 @@
 		76600E121F119B7600E84365 /* RideDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76600E111F119B7600E84365 /* RideDetailsViewController.swift */; };
 		76600E141F119CF600E84365 /* DonatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76600E131F119CF600E84365 /* DonatorViewController.swift */; };
 		76600E161F11B15300E84365 /* OrgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76600E151F11B15300E84365 /* OrgTableViewCell.swift */; };
+		76600E1A1F11D28200E84365 /* GooglePlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76600E191F11D28200E84365 /* GooglePlaces.swift */; };
+		76E774ED1F12BB70009DFF87 /* lyft.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76E774EC1F12BB70009DFF87 /* lyft.jpg */; };
+		76E774F31F12C4B5009DFF87 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E774F21F12C4B5009DFF87 /* bg.png */; };
+		76E774F91F12CAB0009DFF87 /* SplashPage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E774F81F12CAB0009DFF87 /* SplashPage2.png */; };
+		76E774FB1F12D074009DFF87 /* CreateAccount1_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E774FA1F12D074009DFF87 /* CreateAccount1_top.png */; };
+		76F618B51F1277CE00A3B1C7 /* AWP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76F618B41F1277CE00A3B1C7 /* AWP.jpg */; };
+		7A8222B63049A3D91189382D /* Pods_GetHerHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B78365254E4F682C4E7A1D /* Pods_GetHerHomeTests.framework */; };
+		7F62995380AF77649856030E /* Pods_GetHerHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF1D620CEB8AF97B6B5F0CF /* Pods_GetHerHome.framework */; };
+		F77E24BBEFE9629CFE5B6576 /* Pods_GetHerHomeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA330ECB07E14CD43CB883C6 /* Pods_GetHerHomeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		406B1F92689BD070ED1C3ADE /* Pods-GetHerHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetHerHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetHerHome/Pods-GetHerHome.release.xcconfig"; sourceTree = "<group>"; };
 		76600DD61F11941D00E84365 /* GetHerHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetHerHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76600DD91F11941D00E84365 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76600DDE1F11941D00E84365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +71,20 @@
 		76600E111F119B7600E84365 /* RideDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideDetailsViewController.swift; sourceTree = "<group>"; };
 		76600E131F119CF600E84365 /* DonatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonatorViewController.swift; sourceTree = "<group>"; };
 		76600E151F11B15300E84365 /* OrgTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrgTableViewCell.swift; sourceTree = "<group>"; };
+		76600E191F11D28200E84365 /* GooglePlaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlaces.swift; sourceTree = "<group>"; };
+		76E774EC1F12BB70009DFF87 /* lyft.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lyft.jpg; path = Assets.xcassets/lyft.jpg; sourceTree = "<group>"; };
+		76E774F21F12C4B5009DFF87 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		76E774F81F12CAB0009DFF87 /* SplashPage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashPage2.png; sourceTree = "<group>"; };
+		76E774FA1F12D074009DFF87 /* CreateAccount1_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CreateAccount1_top.png; sourceTree = "<group>"; };
+		76F618B41F1277CE00A3B1C7 /* AWP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AWP.jpg; path = Assets.xcassets/AWP.jpg; sourceTree = "<group>"; };
+		98E46CC32FF9EBF043B616AB /* Pods-GetHerHomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetHerHomeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetHerHomeUITests/Pods-GetHerHomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FF1D620CEB8AF97B6B5F0CF /* Pods_GetHerHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetHerHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2003F791F0E4A22229D87DA /* Pods-GetHerHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetHerHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetHerHome/Pods-GetHerHome.debug.xcconfig"; sourceTree = "<group>"; };
+		B021B0C085838C8F1F2E14B5 /* Pods-GetHerHomeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetHerHomeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetHerHomeUITests/Pods-GetHerHomeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BFA268C404D3716B63832675 /* Pods-GetHerHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetHerHomeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetHerHomeTests/Pods-GetHerHomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDD730A8E0434B5917DD69DC /* Pods-GetHerHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetHerHomeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetHerHomeTests/Pods-GetHerHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B78365254E4F682C4E7A1D /* Pods_GetHerHomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetHerHomeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA330ECB07E14CD43CB883C6 /* Pods_GetHerHomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetHerHomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F62995380AF77649856030E /* Pods_GetHerHome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A8222B63049A3D91189382D /* Pods_GetHerHomeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +108,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77E24BBEFE9629CFE5B6576 /* Pods_GetHerHomeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BD6F7BC1E7911AFA88AE84A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2003F791F0E4A22229D87DA /* Pods-GetHerHome.debug.xcconfig */,
+				406B1F92689BD070ED1C3ADE /* Pods-GetHerHome.release.xcconfig */,
+				CDD730A8E0434B5917DD69DC /* Pods-GetHerHomeTests.debug.xcconfig */,
+				BFA268C404D3716B63832675 /* Pods-GetHerHomeTests.release.xcconfig */,
+				98E46CC32FF9EBF043B616AB /* Pods-GetHerHomeUITests.debug.xcconfig */,
+				B021B0C085838C8F1F2E14B5 /* Pods-GetHerHomeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		76600DCD1F11941D00E84365 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +135,8 @@
 				76600DED1F11941D00E84365 /* GetHerHomeTests */,
 				76600DF81F11941D00E84365 /* GetHerHomeUITests */,
 				76600DD71F11941D00E84365 /* Products */,
+				4BD6F7BC1E7911AFA88AE84A /* Pods */,
+				892DABDB17B5024DAA5BEA8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,18 +153,12 @@
 		76600DD81F11941D00E84365 /* GetHerHome */ = {
 			isa = PBXGroup;
 			children = (
-				76600DD91F11941D00E84365 /* AppDelegate.swift */,
-				76600E071F1196F100E84365 /* LogInViewController.swift */,
-				76600E091F11971600E84365 /* CreateAccountViewController.swift */,
-				76600E0B1F11975E00E84365 /* ListOrgsViewController.swift */,
-				76600E0D1F11981E00E84365 /* OrgDetailsViewController.swift */,
-				76600E151F11B15300E84365 /* OrgTableViewCell.swift */,
-				76600E0F1F11985600E84365 /* MapViewController.swift */,
-				76600E111F119B7600E84365 /* RideDetailsViewController.swift */,
-				76600E131F119CF600E84365 /* DonatorViewController.swift */,
+				76600E181F11C93F00E84365 /* Client */,
+				76600E171F11C92700E84365 /* View Controllers */,
 				76600DDD1F11941D00E84365 /* Main.storyboard */,
 				76600DE21F11941D00E84365 /* LaunchScreen.storyboard */,
 				76600DE01F11941D00E84365 /* Assets.xcassets */,
+				76F618B61F1277D600A3B1C7 /* Images */,
 				76600DE51F11941D00E84365 /* Info.plist */,
 			);
 			path = GetHerHome;
@@ -146,6 +182,52 @@
 			path = GetHerHomeUITests;
 			sourceTree = "<group>";
 		};
+		76600E171F11C92700E84365 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				76600DD91F11941D00E84365 /* AppDelegate.swift */,
+				76600E071F1196F100E84365 /* LogInViewController.swift */,
+				76600E091F11971600E84365 /* CreateAccountViewController.swift */,
+				76600E0B1F11975E00E84365 /* ListOrgsViewController.swift */,
+				76600E0D1F11981E00E84365 /* OrgDetailsViewController.swift */,
+				76600E151F11B15300E84365 /* OrgTableViewCell.swift */,
+				76600E0F1F11985600E84365 /* MapViewController.swift */,
+				76600E111F119B7600E84365 /* RideDetailsViewController.swift */,
+				76600E131F119CF600E84365 /* DonatorViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		76600E181F11C93F00E84365 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				76600E191F11D28200E84365 /* GooglePlaces.swift */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		76F618B61F1277D600A3B1C7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				76E774EC1F12BB70009DFF87 /* lyft.jpg */,
+				76E774F81F12CAB0009DFF87 /* SplashPage2.png */,
+				76E774FA1F12D074009DFF87 /* CreateAccount1_top.png */,
+				76E774F21F12C4B5009DFF87 /* bg.png */,
+				76F618B41F1277CE00A3B1C7 /* AWP.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		892DABDB17B5024DAA5BEA8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FF1D620CEB8AF97B6B5F0CF /* Pods_GetHerHome.framework */,
+				F1B78365254E4F682C4E7A1D /* Pods_GetHerHomeTests.framework */,
+				FA330ECB07E14CD43CB883C6 /* Pods_GetHerHomeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76600DFE1F11941D00E84365 /* Build configuration list for PBXNativeTarget "GetHerHome" */;
 			buildPhases = (
+				61866ABDF1ED272AD985D3E6 /* [CP] Check Pods Manifest.lock */,
 				76600DD21F11941D00E84365 /* Sources */,
 				76600DD31F11941D00E84365 /* Frameworks */,
 				76600DD41F11941D00E84365 /* Resources */,
+				E87A2ECAC06B58BF2C33D4D6 /* [CP] Embed Pods Frameworks */,
+				5196E30864C2EB94DBED6852 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76600E011F11941D00E84365 /* Build configuration list for PBXNativeTarget "GetHerHomeTests" */;
 			buildPhases = (
+				29C29F6746B0B33CA7808F69 /* [CP] Check Pods Manifest.lock */,
 				76600DE61F11941D00E84365 /* Sources */,
 				76600DE71F11941D00E84365 /* Frameworks */,
 				76600DE81F11941D00E84365 /* Resources */,
+				F1774C7FF65F3D2F29F2F7E3 /* [CP] Embed Pods Frameworks */,
+				CC3C9F0B3BBDEEFA4E2ECDDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76600E041F11941D00E84365 /* Build configuration list for PBXNativeTarget "GetHerHomeUITests" */;
 			buildPhases = (
+				8F9553B11DABE129DD196A77 /* [CP] Check Pods Manifest.lock */,
 				76600DF11F11941D00E84365 /* Sources */,
 				76600DF21F11941D00E84365 /* Frameworks */,
 				76600DF31F11941D00E84365 /* Resources */,
+				2E83E3B795CCCCEC5502609D /* [CP] Embed Pods Frameworks */,
+				B1564DCEEFB2DBED48319787 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,7 +348,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				76600DE41F11941D00E84365 /* LaunchScreen.storyboard in Resources */,
+				76E774ED1F12BB70009DFF87 /* lyft.jpg in Resources */,
 				76600DE11F11941D00E84365 /* Assets.xcassets in Resources */,
+				76F618B51F1277CE00A3B1C7 /* AWP.jpg in Resources */,
+				76E774F91F12CAB0009DFF87 /* SplashPage2.png in Resources */,
+				76E774FB1F12D074009DFF87 /* CreateAccount1_top.png in Resources */,
+				76E774F31F12C4B5009DFF87 /* bg.png in Resources */,
 				76600DDF1F11941D00E84365 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +374,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29C29F6746B0B33CA7808F69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E83E3B795CCCCEC5502609D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetHerHomeUITests/Pods-GetHerHomeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5196E30864C2EB94DBED6852 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetHerHome/Pods-GetHerHome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61866ABDF1ED272AD985D3E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F9553B11DABE129DD196A77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1564DCEEFB2DBED48319787 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetHerHomeUITests/Pods-GetHerHomeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC3C9F0B3BBDEEFA4E2ECDDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetHerHomeTests/Pods-GetHerHomeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E87A2ECAC06B58BF2C33D4D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetHerHome/Pods-GetHerHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1774C7FF65F3D2F29F2F7E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetHerHomeTests/Pods-GetHerHomeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		76600DD21F11941D00E84365 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -289,6 +523,7 @@
 				76600E121F119B7600E84365 /* RideDetailsViewController.swift in Sources */,
 				76600E0C1F11975E00E84365 /* ListOrgsViewController.swift in Sources */,
 				76600E141F119CF600E84365 /* DonatorViewController.swift in Sources */,
+				76600E1A1F11D28200E84365 /* GooglePlaces.swift in Sources */,
 				76600E0E1F11981E00E84365 /* OrgDetailsViewController.swift in Sources */,
 				76600DDA1F11941D00E84365 /* AppDelegate.swift in Sources */,
 				76600E081F1196F100E84365 /* LogInViewController.swift in Sources */,
@@ -393,6 +628,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -436,6 +672,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -443,6 +680,7 @@
 		};
 		76600DFF1F11941D00E84365 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2003F791F0E4A22229D87DA /* Pods-GetHerHome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6ZD82QXX95;
@@ -450,12 +688,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = svm.GetHerHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		76600E001F11941D00E84365 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406B1F92689BD070ED1C3ADE /* Pods-GetHerHome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6ZD82QXX95;
@@ -463,12 +703,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = svm.GetHerHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		76600E021F11941D00E84365 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD730A8E0434B5917DD69DC /* Pods-GetHerHomeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +726,7 @@
 		};
 		76600E031F11941D00E84365 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA268C404D3716B63832675 /* Pods-GetHerHomeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +742,7 @@
 		};
 		76600E051F11941D00E84365 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E46CC32FF9EBF043B616AB /* Pods-GetHerHomeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6ZD82QXX95;
@@ -513,6 +757,7 @@
 		};
 		76600E061F11941D00E84365 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B021B0C085838C8F1F2E14B5 /* Pods-GetHerHomeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6ZD82QXX95;
@@ -544,6 +789,7 @@
 				76600E001F11941D00E84365 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76600E011F11941D00E84365 /* Build configuration list for PBXNativeTarget "GetHerHomeTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +798,7 @@
 				76600E031F11941D00E84365 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76600E041F11941D00E84365 /* Build configuration list for PBXNativeTarget "GetHerHomeUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +807,7 @@
 				76600E061F11941D00E84365 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
