@@ -20,6 +20,7 @@
 		76600E101F11985600E84365 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76600E0F1F11985600E84365 /* MapViewController.swift */; };
 		76600E121F119B7600E84365 /* RideDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76600E111F119B7600E84365 /* RideDetailsViewController.swift */; };
 		76600E141F119CF600E84365 /* DonatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76600E131F119CF600E84365 /* DonatorViewController.swift */; };
+		76600E161F11B15300E84365 /* OrgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76600E151F11B15300E84365 /* OrgTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		76600E0F1F11985600E84365 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		76600E111F119B7600E84365 /* RideDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideDetailsViewController.swift; sourceTree = "<group>"; };
 		76600E131F119CF600E84365 /* DonatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonatorViewController.swift; sourceTree = "<group>"; };
+		76600E151F11B15300E84365 /* OrgTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrgTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				76600E091F11971600E84365 /* CreateAccountViewController.swift */,
 				76600E0B1F11975E00E84365 /* ListOrgsViewController.swift */,
 				76600E0D1F11981E00E84365 /* OrgDetailsViewController.swift */,
+				76600E151F11B15300E84365 /* OrgTableViewCell.swift */,
 				76600E0F1F11985600E84365 /* MapViewController.swift */,
 				76600E111F119B7600E84365 /* RideDetailsViewController.swift */,
 				76600E131F119CF600E84365 /* DonatorViewController.swift */,
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76600E0A1F11971600E84365 /* CreateAccountViewController.swift in Sources */,
+				76600E161F11B15300E84365 /* OrgTableViewCell.swift in Sources */,
 				76600E101F11985600E84365 /* MapViewController.swift in Sources */,
 				76600E121F119B7600E84365 /* RideDetailsViewController.swift in Sources */,
 				76600E0C1F11975E00E84365 /* ListOrgsViewController.swift in Sources */,

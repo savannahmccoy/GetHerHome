@@ -14,8 +14,7 @@ class CreateAccountViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var ageTextField: UITextField!
     @IBOutlet weak var locationTextField: UITextField!
-    
-    
+    @IBOutlet weak var backButton: UIButton!
     
     
     override func viewDidLoad() {
@@ -30,6 +29,12 @@ class CreateAccountViewController: UIViewController {
     }
     
 
+    
+    @IBAction func didTapBack(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    
     /*
     // MARK: - Navigation
 

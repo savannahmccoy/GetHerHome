@@ -10,6 +10,8 @@ import UIKit
 
 class DonatorViewController: UIViewController {
 
+    @IBOutlet weak var backButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,7 +23,10 @@ class DonatorViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func didTapBack(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

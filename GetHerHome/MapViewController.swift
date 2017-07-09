@@ -10,6 +10,11 @@ import UIKit
 
 class MapViewController: UIViewController {
 
+    @IBOutlet weak var backButton: UIButton!
+    @IBOutlet weak var locationLabel: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +26,9 @@ class MapViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func didTapBack(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

@@ -10,6 +10,9 @@ import UIKit
 
 class ListOrgsViewController: UIViewController {
 
+    @IBOutlet weak var orgListTableView: UITableView!
+    @IBOutlet weak var backButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +22,10 @@ class ListOrgsViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func didTapBack(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
     }
     
 
